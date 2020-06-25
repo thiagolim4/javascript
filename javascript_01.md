@@ -1,12 +1,12 @@
 # JavaScript 01
 
 ## Tags iniciais
-- Escrever código sempre entre ```<scrpit></script>```
+- Escrever código sempre entre ```<script></script>```
 - ```alert()```, ```console.log()```
 - **DOM**: Document Object Model, representação do HTML para o JavaScript (ponte entre ambos)
  - O document é uma variável muito importante do Javascript. Ela contém o DOM ou Document Object Model, que é como o navegador enxerga o HTML utilizado por ele para renderizar a página.
 
-O navegador, ao ler o seu arquivo HTML, cria uma cópia em memória daquele HTML e a partir dessa cópia ele vai desenhando a sua página, colocando as tags e aplicando os estilos. Esta cópia é o que chamamos de DOM uma representação em memória do HTML do seu arquivo, que o navegador usa para desenhar a página, e a variável document é quem contêm o DOM.
+O navegador, ao ler o seu arquivo HTML, cria uma cópia em memória daquele HTML e a partir dessa cópia ele vai desenhando a sua página, colocando as tags e aplicando os estilos. Esta cópia é o que chamamos de DOM, uma representação em memória do HTML do seu arquivo, que o navegador usa para desenhar a página, e a variável document é quem contêm o DOM.
 
 Por isso, quando dizemos que com o Javascript nós estamos manipulando o DOM, estamos manipulando o que o navegador renderizou. Então ao trocar algum texto do DOM, o navegador imediatamente desenha novamente aquele texto, pois o DOM é o que o navegador usa para desenhar o seu site.
 
@@ -63,7 +63,7 @@ var paciente = {
 - ```elemento.innerHTML = ""``` altera o HTML interno
 
 ## Expressões regulares
-- Busca comum em textos grandes (eel vai atualizando conforme digita-se as letras), parâmetros são o valor buscado e se é *case sensitive*
+- Busca comum em textos grandes (ele vai atualizando conforme digita-se as letras), parâmetros são o valor buscado e se é *case sensitive*
 ```Javascript
 var expressao = new RegExp(this.value, "i", );
 ```
